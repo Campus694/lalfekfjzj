@@ -13,7 +13,7 @@ workflows:
         script: |
           set -eu
           mkdir -p extracted
-          unzip -o PaymentHelper-Android-Project.zip -d extracted
+          unzip -o PaymentHelper-fixed.zip -d extracted
 
       - name: Install Gradle
         script: |
